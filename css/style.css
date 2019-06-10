@@ -424,6 +424,39 @@ body {
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
+.section-form .contact-form {
+  width: 60%;
+  margin: 0 auto; }
+
+.section-form input[type=text],
+.section-form input[type=email],
+.section-form select,
+.section-form textarea {
+  width: 100%;
+  padding: .7rem;
+  border-radius: .3rem;
+  border: .1rem solid #ccc; }
+
+.section-form textarea {
+  height: 10rem; }
+
+.section-form input[type=checkbox] {
+  margin: 1rem .5rem 1rem 0; }
+
+.form-messages {
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: .3rem;
+  margin-bottom: 2rem;
+  color: #333; }
+
+.success {
+  background-color: rgba(38, 191, 69, 0.801); }
+
+.error {
+  background-color: rgba(209, 46, 46, 0.801); }
+
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
@@ -977,7 +1010,7 @@ body {
       background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg); } }
   .book__form {
     width: 50%;
-    padding: 6rem; }
+    padding: 3rem; }
     @media only screen and (max-width: 75em) {
       .book__form {
         width: 65%; } }

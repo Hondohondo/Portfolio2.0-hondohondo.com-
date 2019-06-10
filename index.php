@@ -372,21 +372,21 @@
                                            Contact me
                                         </h2>
                                     </div>
-<!-- 
-                                    <?php
-                                    if($_GET['success'] == 1) {
-                                        echo "<div class=\"form-messages success\">
-                                                Thank you! Your message has been sent.
-                                            </div>";
-                                    }
-                                    if($_GET['success'] == -1) {
-                                        echo "<div class=\"form-messages error\">
-                                                Oops! Something went wrong. Please try again!
-                                            </div>";
-                                    }
-                                    ?> -->
                               
-
+                            <?php
+                            if($_GET['success'] == 1) {
+                                echo "<div class=\"form-messages success\">
+                                        Thank you! Your message has been sent.
+                                    </div>";
+                            }
+                            if($_GET['success'] == -1) {
+                                echo "<div class=\"form-messages error\">
+                                        Oops! Something went wrong. Please try again!
+                                    </div>";
+                            }
+                            ?>
+                      
+                                    
 
                                 <div class="form__group">
                                     <input type="text" class="form__input" placeholder="Full name" id="name" required>
