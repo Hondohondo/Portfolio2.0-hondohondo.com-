@@ -365,7 +365,7 @@
                 <div class="row">
                     <div class="book">
                         <div class="book__form" id="form">
-                            <form method="POST" action="mailer.php" class="form">
+                            <form name="contact" method="POST" data-netlify="true" class="form">
                                     <div class="u-margin-bottom-medium">
                                         <h2 class="heading-secondary">
                                            <!-- Start booking now -->
@@ -373,7 +373,7 @@
                                         </h2>
                                     </div>
 
-                                    <?php
+                                    <!-- <?php
                                     if($_GET['success'] == 1) {
                                         echo "<div class=\"form-messages success\">
                                                 Thank you! Your message has been sent.
@@ -384,11 +384,11 @@
                                                 Oops! Something went wrong. Please try again!
                                             </div>";
                                     }
-                                    ?>
+                                    ?> -->
                               
 
 
-                                <div class="form__group">
+                                <!-- <div class="form__group">
                                     <input type="text" class="form__input" placeholder="Full name" id="name" required>
                                     <label for="name" class="form__label">Full name</label>
                                 </div>
@@ -400,7 +400,29 @@
 
                                 <div class="form__group">
                                     <textarea name="message" class="form__input" placeholder="Your message"></textarea> 
+                                </div> -->
+
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Full name" id="name" name="name" required>
+                                    <label for="name" class="form__label">Full name</label>
                                 </div>
+
+                                <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="Email address" id="email" name="email" required>
+                                    <label for="email" class="form__label">Email address</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <textarea name="message" class="form__input" placeholder="Your message"></textarea> 
+                                </div>
+
+
+
+
+                            
+                              
+                            
+                                
 <!-- 
                                 <div class="form__group">
                                     <textarea name="message" class="form__textarea" placeholder="Your message"></textarea> 
@@ -428,7 +450,7 @@
                                 </div> -->
 
                                 <div class="form__group">
-                                    <button class="btn btn--green">Send &rarr;</button>
+                                    <button type="submit" class="btn btn--green">Send &rarr;</button>
                                     <!-- <button class="btn btn--green">Next step &rarr;</button> -->
 
                                     <!-- <div class="col-2-of-3">
