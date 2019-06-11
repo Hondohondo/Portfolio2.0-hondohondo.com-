@@ -372,7 +372,7 @@
                                            Contact me
                                         </h2>
                                     </div>
-<!-- 
+
                                     <?php
                                     if($_GET['success'] == 1) {
                                         echo "<div class=\"form-messages success\">
@@ -384,7 +384,7 @@
                                                 Oops! Something went wrong. Please try again!
                                             </div>";
                                     }
-                                    ?> -->
+                                    ?>
                               
 
 
