@@ -20,8 +20,14 @@
     }
 
     &__logo {
-        width: 15rem;
+        //width: 15rem;
+        width: 10rem;
         height: auto;
+
+        //added by me
+        // @include respond(tab-port) { 
+        //     width: 10rem;
+        // }
 
     }
 
